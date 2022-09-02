@@ -16,7 +16,7 @@
         Graduado como Ortopedista y Traumatólogo en UNAH con una especialidad en
         cirugía de la Mano y Extr
       </p>
-      <a href="asdf.com" class="btn btn-outline btn-primary"> Acerca </a>
+      <a href="#about" class="btn btn-outline btn-primary"> Acerca </a>
     </div>
   </div>
 </div>

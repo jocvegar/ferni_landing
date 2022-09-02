@@ -5,7 +5,7 @@
         <div class="flex flex-wrap -mx-4 items-center py-6 justify-between">
           <div class="px-4 py-1 space-x-1">
             <a
-              href="#"
+              href="#home"
               class="font-bold font-serif hover:text-opacity-75 inline-flex items-center leading-none mr-4 space-x-1 text-black text-base uppercase lg:text-xl"
             >
               <svg
@@ -102,18 +102,21 @@
           >
             <div class="flex flex-col mr-auto py-1 lg:flex-row">
               <a
+                @click="showNavbar = false"
                 href="#home"
                 class="hover:text-gray-400 lg:p-4 py-2 text-primary font-bold"
               >
                 Inicio
               </a>
               <a
+                @click="showNavbar = false"
                 href="#about"
                 class="hover:text-gray-400 lg:p-4 py-2 text-primary font-bold"
               >
                 Acerca
               </a>
               <a
+                @click="showNavbar = false"
                 href="#services"
                 class="hover:text-gray-400 lg:p-4 py-2 text-primary font-bold"
               >
@@ -121,6 +124,7 @@
               </a>
 
               <a
+                @click="showNavbar = false"
                 href="#contact"
                 class="hover:text-gray-400 lg:p-4 py-2 text-primary font-bold"
               >
@@ -128,7 +132,11 @@
               </a>
             </div>
             <div class="flex-wrap gap-2 inline-flex items-center py-1">
-              <a class="btn btn-primary text-white" href="#contact">
+              <a
+                @click="showNavbar = false"
+                class="btn btn-primary text-white"
+                href="#contact"
+              >
                 ¿Consultas?
               </a>
             </div>
