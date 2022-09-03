@@ -1,7 +1,11 @@
+<script>
+  let hero = "../images/ferni.jpeg";
+</script>
+
 <div id="home" class="hero min-h-[50%] bg-gray-100">
   <div class="hero-content flex-col lg:flex-row-reverse">
     <img
-      src="../../src/images/ferni.jpeg"
+      src={hero}
       class="max-w-md rounded-lg shadow-xl hover:shadow-2xl"
       alt="ferni"
     />

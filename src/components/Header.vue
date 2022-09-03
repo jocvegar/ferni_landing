@@ -147,8 +147,8 @@
   </div>
 </template>
 
-<script setup lang="ts">
-import { ref } from "Vue";
+<script setup>
+import { ref } from "vue";
 
 const showNavbar = ref(false);
 
