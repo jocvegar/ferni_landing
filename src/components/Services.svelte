@@ -6,28 +6,28 @@
           <div class="-mt-4 p-3 w-6/12">
             <img
               alt="codo"
-              src="../../src/images/codo.jpeg"
+              src="../../src/images/codo.jpg"
               class="rounded w-full hover:scale-105 ease-in-out duration-300 "
             />
           </div>
           <div class="p-3 w-6/12">
             <img
               alt="hombro"
-              src="../../src/images/hombro.jpeg"
+              src="../../src/images/hombro.jpg"
               class="rounded w-full hover:scale-105 ease-in-out duration-300 "
             />
           </div>
           <div class="-mt-4 p-3 w-6/12">
             <img
               alt="mano"
-              src="../../src/images/mano.jpeg"
+              src="../../src/images/mano.jpg"
               class="rounded w-full hover:scale-105 ease-in-out duration-300 "
             />
           </div>
           <div class="p-3 w-6/12">
             <img
               alt="hombro2"
-              src="../../src/images/hombro2.jpeg"
+              src="../../src/images/hombro2.jpg"
               class="rounded w-full hover:scale-105 ease-in-out duration-300 "
             />
           </div>
