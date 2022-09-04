@@ -6,28 +6,28 @@
           <div class="-mt-4 p-3 w-6/12">
             <img
               alt="codo"
-              src="../../src/images/codo.jpg"
+              src="/images/codo.jpg"
               class="rounded w-full hover:scale-105 ease-in-out duration-300 "
             />
           </div>
           <div class="p-3 w-6/12">
             <img
               alt="hombro"
-              src="../../src/images/hombro.jpg"
+              src="/images/hombro.jpg"
               class="rounded w-full hover:scale-105 ease-in-out duration-300 "
             />
           </div>
           <div class="-mt-4 p-3 w-6/12">
             <img
               alt="mano"
-              src="../../src/images/mano.jpg"
+              src="/images/mano.jpg"
               class="rounded w-full hover:scale-105 ease-in-out duration-300 "
             />
           </div>
           <div class="p-3 w-6/12">
             <img
               alt="hombro2"
-              src="../../src/images/hombro2.jpg"
+              src="/images/hombro2.jpg"
               class="rounded w-full hover:scale-105 ease-in-out duration-300 "
             />
           </div>
@@ -52,7 +52,7 @@
         <div class="border pb-6 pt-2 px-6 rounded">
           <div class="avatar -mt-12 mb-4">
             <div class="w-24 rounded">
-              <img alt="hombro" src="../../src/images/hombro.png" />
+              <img alt="hombro" src="/images/hombro.png" />
             </div>
           </div>
           <h3 class="font-bold mb-4 text-2xl text-gray-900">
@@ -68,7 +68,7 @@
         <div class="border pb-6 pt-2 px-6 rounded">
           <div class="avatar -mt-12 mb-4">
             <div class="w-24 rounded">
-              <img alt="mano" src="../../src/images/mano.png" />
+              <img alt="mano" src="/images/mano.png" />
             </div>
           </div>
           <h3 class="font-bold mb-4 text-2xl text-gray-900">
@@ -84,7 +84,7 @@
         <div class="border pb-6 pt-2 px-6 rounded">
           <div class="avatar -mt-12 mb-4">
             <div class="w-24 rounded">
-              <img alt="codo" src="../../src/images/codo.png" />
+              <img alt="codo" src="/images/codo.png" />
             </div>
           </div>
           <h3 class="font-bold mb-4 text-2xl text-gray-900">

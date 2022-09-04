@@ -1,5 +1,5 @@
 <script>
-  let hero = "../../src/images/ferni.jpg";
+  let hero = "/images/ferni.jpg";
 </script>
 
 <div id="home" class="hero min-h-[50%] bg-gray-100">
