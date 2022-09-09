@@ -59,25 +59,25 @@
 </template>
 
 <script setup>
-const sendEmail = async (name, email, message) => {
-  try {
-    await axios.post("/.netlify/functions/sendgrid/sendgrid", {
-      message:
-        `<br>` +
-        "Name: " +
-        name +
-        `<br>` +
-        "Email: " +
-        email +
-        `<br>` +
-        "Message: " +
-        message +
-        `<br>`,
-    });
-  } catch (e) {
-    console.error(e);
-    // @ts-ignore
-    alert("Your message could not be sent. Sorry about that.");
-  }
-};
+// const sendEmail = async (name, email, message) => {
+//   try {
+//     await axios.post("/.netlify/functions/sendgrid/sendgrid", {
+//       message:
+//         `<br>` +
+//         "Name: " +
+//         name +
+//         `<br>` +
+//         "Email: " +
+//         email +
+//         `<br>` +
+//         "Message: " +
+//         message +
+//         `<br>`,
+//     });
+//   } catch (e) {
+//     console.error(e);
+//     // @ts-ignore
+//     alert("Your message could not be sent. Sorry about that.");
+//   }
+// };
 </script>
