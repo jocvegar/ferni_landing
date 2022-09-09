@@ -44,7 +44,7 @@
             En toda visita al médico nos damos cuenta que cuando los pacientes
             están más involucrados obtienen mejores resultados.
           </h3>
-
+          <button @click="sendEmail('jose', 'nepe', 'llopo')">CLICK</button>
           <ul class="my-6 list-disc pl-6">
             <li class="text-xl my-2">Se honesto con el "cómo te sientes"</li>
             <li class="text-xl my-2">Toma nota para no olvidar</li>
@@ -59,6 +59,39 @@
 </template>
 
 <script setup>
+// var data = new FormData();
+// data.append("json", JSON.stringify(payload));
+
+const sendEmail = (name, email, message) => {
+  const payload = {
+    message:
+      `<br>` +
+      "Name: " +
+      name +
+      `<br>` +
+      "Email: " +
+      email +
+      `<br>` +
+      "Message: " +
+      message +
+      `<br>`,
+  };
+  fetch("/.netlify/functions/sendgrid/sendgrid", {
+    method: "POST",
+    body: JSON.stringify(payload),
+  })
+    .then(function (res) {
+      return res.json();
+    })
+    .then(function (data) {
+      alert(JSON.stringify(data));
+    })
+    .catch((e) => {
+      alert("No se pudo enviar en mensaje, por favor intentar de nuevo");
+      console.log("error: ", e);
+    });
+};
+
 // const sendEmail = async (name, email, message) => {
 //   try {
 //     await axios.post("/.netlify/functions/sendgrid/sendgrid", {
