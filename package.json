@@ -1,5 +1,5 @@
 {
-  "name": "@example/basics",
+  "name": "dr-ortopeda",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -19,6 +19,7 @@
     "vue": "^3.2.37"
   },
   "dependencies": {
+    "@sendgrid/mail": "^7.7.0",
     "@vueuse/core": "^9.2.0",
     "daisyui": "^2.24.0",
     "gsap": "^3.11.1",

@@ -76,15 +76,13 @@ const sendEmail = (name, email, message) => {
       message +
       `<br>`,
   };
-  fetch("/.netlify/functions/sendgrid/sendgrid", {
+  var responseClone;
+  fetch("/.netlify/functions/sendmail/sendmail", {
     method: "POST",
-    body: JSON.stringify(payload),
+    body: '{"name":"Jose"}',
   })
-    .then(function (res) {
-      return res.json();
-    })
-    .then(function (data) {
-      alert(JSON.stringify(data));
+    .then(function (response) {
+      console.log("response", response);
     })
     .catch((e) => {
       alert("No se pudo enviar en mensaje, por favor intentar de nuevo");
