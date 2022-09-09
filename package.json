@@ -7,7 +7,8 @@
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "postinstall": "netlify-lambda install"
   },
   "devDependencies": {
     "@astrojs/svelte": "^1.0.0",
@@ -20,6 +21,7 @@
   "dependencies": {
     "@vueuse/core": "^9.2.0",
     "daisyui": "^2.24.0",
-    "gsap": "^3.11.1"
+    "gsap": "^3.11.1",
+    "netlify-lambda": "^2.0.15"
   }
 }

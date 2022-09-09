@@ -66,13 +66,13 @@ const sendEmail = (name, email, message) => {
   const payload = {
     message:
       `<br>` +
-      "Name: " +
+      "Nombre: " +
       name +
       `<br>` +
-      "Email: " +
+      "Correo: " +
       email +
       `<br>` +
-      "Message: " +
+      "Mensaje: " +
       message +
       `<br>`,
   };
