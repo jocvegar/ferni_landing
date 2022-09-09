@@ -59,9 +59,6 @@
 </template>
 
 <script setup>
-// var data = new FormData();
-// data.append("json", JSON.stringify(payload));
-
 const sendEmail = (name, email, message) => {
   const payload = {
     message:
@@ -76,10 +73,10 @@ const sendEmail = (name, email, message) => {
       message +
       `<br>`,
   };
-  var responseClone;
+
   fetch("/.netlify/functions/sendmail/sendmail", {
     method: "POST",
-    body: '{"name":"Jose"}',
+    body: payload,
   })
     .then(function (response) {
       console.log("response", response);
