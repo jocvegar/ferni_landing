@@ -44,7 +44,9 @@
               href="tel:22253033"
               class="group hover:text-primary-600 inline-flex items-center leading-tight text-gray-500"
             >
-              <button class="btn btn-sm btn-primary lg:mr-2 text-white">
+              <button
+                class="btn btn-sm btn-primary hover:btn-secondary lg:mr-2 text-white"
+              >
                 <svg
                   viewBox="0 0 24 24"
                   fill="currentColor"
@@ -67,7 +69,9 @@
               target="_blank"
               class="group hover:text-primary-600 inline-flex items-center leading-tight text-gray-500"
             >
-              <button class="btn btn-sm btn-primary lg:mr-2 text-white">
+              <button
+                class="btn btn-sm btn-primary hover:btn-secondary lg:mr-2 text-white"
+              >
                 <svg viewBox="0 0 24 24" fill="currentColor" class="h-5 w-5">
                   <path
                     d="M18.364 17.364L12 23.728l-6.364-6.364a9 9 0 1 1 12.728 0zM12 13a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"

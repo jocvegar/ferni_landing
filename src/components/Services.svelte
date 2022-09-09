@@ -7,28 +7,28 @@
             <img
               alt="codo"
               src="/images/codo.jpg"
-              class="rounded w-full hover:scale-105 ease-in-out duration-300 "
+              class="rounded w-full hover:scale-105 ease-in-out duration-300"
             />
           </div>
           <div class="p-3 w-6/12">
             <img
               alt="hombro"
               src="/images/hombro.jpg"
-              class="rounded w-full hover:scale-105 ease-in-out duration-300 "
+              class="rounded w-full hover:scale-105 ease-in-out duration-300"
             />
           </div>
           <div class="-mt-4 p-3 w-6/12">
             <img
               alt="mano"
               src="/images/mano.jpg"
-              class="rounded w-full hover:scale-105 ease-in-out duration-300 "
+              class="rounded w-full hover:scale-105 ease-in-out duration-300"
             />
           </div>
           <div class="p-3 w-6/12">
             <img
               alt="hombro2"
               src="/images/hombro2.jpg"
-              class="rounded w-full hover:scale-105 ease-in-out duration-300 "
+              class="rounded w-full hover:scale-105 ease-in-out duration-300"
             />
           </div>
         </div>
@@ -51,7 +51,7 @@
       <div class="pb-4 pt-12 px-4 w-full sm:w-6/12 lg:w-4/12">
         <div class="border-2 pb-6 pt-2 px-6 rounded">
           <div class="avatar -mt-12 mb-4">
-            <div class="w-24 rounded">
+            <div class="w-24 rounded hover:scale-110 ease-in-out duration-300">
               <img alt="hombro" src="/images/hombro.png" />
             </div>
           </div>
@@ -67,7 +67,7 @@
       <div class="pb-4 pt-12 px-4 w-full sm:w-6/12 lg:w-4/12">
         <div class="border-2 pb-6 pt-2 px-6 rounded">
           <div class="avatar -mt-12 mb-4">
-            <div class="w-24 rounded">
+            <div class="w-24 rounded hover:scale-110 ease-in-out duration-300">
               <img alt="mano" src="/images/mano.png" />
             </div>
           </div>
@@ -83,7 +83,7 @@
       <div class="pb-4 pt-12 px-4 w-full sm:w-6/12 lg:w-4/12">
         <div class="border-2 pb-6 pt-2 px-6 rounded">
           <div class="avatar -mt-12 mb-4">
-            <div class="w-24 rounded">
+            <div class="w-24 rounded hover:scale-110 ease-in-out duration-300">
               <img alt="codo" src="/images/codo.png" />
             </div>
           </div>

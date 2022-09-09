@@ -42,7 +42,7 @@
           <a
             href="https://www.facebook.com/profile.php?id=100078915214086"
             target="_blank"
-            class="bg-primary border-white hover:bg-primary p-2 rounded text-white"
+            class="bg-primary border-white hover:bg-secondary p-2 rounded text-white"
             aria-label="facebook"
           >
             <svg viewBox="0 0 24 24" fill="currentColor" class="h-5 w-5">
@@ -54,7 +54,7 @@
           <a
             href="instagram.com/dr.ortopeda"
             target="_blank"
-            class="bg-primary border-white hover:bg-primary p-2 rounded text-white"
+            class="bg-primary border-white hover:bg-secondary p-2 rounded text-white"
             aria-label="instagram"
           >
             <svg viewBox="0 0 24 24" fill="currentColor" class="h-5 w-5">
@@ -74,17 +74,17 @@
           <div class="px-4 w-full sm:w-6/12">
             <ul>
               <li class="mb-4">
-                <a href="#about" class="hover:text-primary-300 text-white">
+                <a href="#about" class="hover:text-primary text-white">
                   Acerca
                 </a>
               </li>
               <li class="mb-4">
-                <a href="#services" class="hover:text-primary-300 text-white">
+                <a href="#services" class="hover:text-primary text-white">
                   Servicios
                 </a>
               </li>
               <li class="mb-4">
-                <a href="#contact" class="hover:text-primary-300 text-white">
+                <a href="#contact" class="hover:text-primary text-white">
                   Contacto
                 </a>
               </li>
@@ -93,21 +93,21 @@
           <!-- <div class="px-4 w-full sm:w-6/12">
             <ul>
               <li class="mb-4">
-                <a href="#" class="hover:text-primary-300 text-white">Careers</a
+                <a href="#" class="hover:text-primary text-white">Careers</a
                 >
               </li>
               <li class="mb-4">
-                <a href="#" class="hover:text-primary-300 text-white"
+                <a href="#" class="hover:text-primary text-white"
                   >Customers</a
                 >
               </li>
               <li class="mb-4">
-                <a href="#" class="hover:text-primary-300 text-white"
+                <a href="#" class="hover:text-primary text-white"
                   >Contact Us</a
                 >
               </li>
               <li class="mb-4">
-                <a href="#" class="hover:text-primary-300 text-white"
+                <a href="#" class="hover:text-primary text-white"
                   >Success Stories</a
                 >
               </li>
