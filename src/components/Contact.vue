@@ -76,7 +76,7 @@ const sendEmail = (name, email, message) => {
 
   fetch("/.netlify/functions/sendmail/sendmail", {
     method: "POST",
-    body: payload,
+    body: JSON.stringify(payload),
   })
     .then(function (response) {
       console.log("response", response);
