@@ -49,13 +49,13 @@
     </div>
     <div class="flex flex-wrap -mx-4 justify-center">
       <div class="pb-4 pt-12 px-4 w-full sm:w-6/12 lg:w-4/12">
-        <div class="border pb-6 pt-2 px-6 rounded">
+        <div class="border-2 pb-6 pt-2 px-6 rounded">
           <div class="avatar -mt-12 mb-4">
             <div class="w-24 rounded">
               <img alt="hombro" src="/images/hombro.png" />
             </div>
           </div>
-          <h3 class="font-bold mb-4 text-2xl text-gray-900">
+          <h3 class="font-bold mb-4 text-2xl text-primary">
             <span>Hombros</span>
           </h3>
           <ul class="list-disc">
@@ -65,13 +65,13 @@
         </div>
       </div>
       <div class="pb-4 pt-12 px-4 w-full sm:w-6/12 lg:w-4/12">
-        <div class="border pb-6 pt-2 px-6 rounded">
+        <div class="border-2 pb-6 pt-2 px-6 rounded">
           <div class="avatar -mt-12 mb-4">
             <div class="w-24 rounded">
               <img alt="mano" src="/images/mano.png" />
             </div>
           </div>
-          <h3 class="font-bold mb-4 text-2xl text-gray-900">
+          <h3 class="font-bold mb-4 text-2xl text-primary">
             <span>Mano</span>
           </h3>
           <ul class="list-disc">
@@ -81,13 +81,13 @@
         </div>
       </div>
       <div class="pb-4 pt-12 px-4 w-full sm:w-6/12 lg:w-4/12">
-        <div class="border pb-6 pt-2 px-6 rounded">
+        <div class="border-2 pb-6 pt-2 px-6 rounded">
           <div class="avatar -mt-12 mb-4">
             <div class="w-24 rounded">
               <img alt="codo" src="/images/codo.png" />
             </div>
           </div>
-          <h3 class="font-bold mb-4 text-2xl text-gray-900">
+          <h3 class="font-bold mb-4 text-2xl text-primary">
             <span>Codo</span>
           </h3>
           <ul class="list-disc">

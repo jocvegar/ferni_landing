@@ -16,7 +16,7 @@
         <span class="block font-normal"> Dr. Fernando Alvarenga</span>
         Cirujano de Hombro y Mano
       </h1>
-      <p class="text-xl mb-6 sm:pr-12">
+      <p class="text-xl mb-6 sm:pr-12 text-neutral">
         Graduado como Ortopedista y Traumatólogo en UNAH con una especialidad en
         cirugía de la Mano y Extr
       </p>

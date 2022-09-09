@@ -18,6 +18,8 @@
     "vue": "^3.2.37"
   },
   "dependencies": {
-    "daisyui": "^2.24.0"
+    "@vueuse/core": "^9.2.0",
+    "daisyui": "^2.24.0",
+    "gsap": "^3.11.1"
   }
 }
