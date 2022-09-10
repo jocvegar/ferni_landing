@@ -8,7 +8,7 @@ function sendEmail(client, message, senderEmail, senderName) {
         name: senderName,
       },
       subject: "SendGrid Form",
-      to: "jocvegar@gmail.com",
+      to: "jocvegar+ferni@gmail.com",
       html: `New form submission<br/> ${message}`,
     };
 
