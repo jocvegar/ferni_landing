@@ -81,7 +81,7 @@
               <div class="hidden lg:block">
                 <div class="text-sm">Ubicación</div>
                 <div class="font-bold text-primary-500">
-                  Barrio La Granja, Tgu. Honduras
+                  Barrio La Granja, TGU. Honduras
                 </div>
               </div>
             </a>

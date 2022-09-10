@@ -6,7 +6,7 @@
   <div class="hero-content flex-col lg:flex-row-reverse">
     <img
       src={hero}
-      class="max-w-md rounded-lg shadow-xl hover:shadow-2xl"
+      class="md:max-w-md rounded-lg shadow-xl hover:shadow-2xl"
       alt="ferni"
     />
     <div>

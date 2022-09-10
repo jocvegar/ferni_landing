@@ -36,14 +36,15 @@
       <div class="p-4 w-full lg:order-1 lg:w-5/12 xl:w-6/12">
         <h2 class="font-medium mb-2 text-lg text-primary">Mis Servicios</h2>
         <h3 class="font-bold mb-4 text-4xl text-gray-800">
-          En cada consulta me gusta explicar a mis pacientes lo más detallado
-          posible su situación y buscarle una solución efectiva.
+          "En cada consulta me gusta explicar a mis pacientes lo más detallado
+          posible su situación y buscarle una solución efectiva."
+          <br />
+          <span class="text-sm">- Dr. Ortopeda</span>
         </h3>
         <p class="mb-6">
-          Recuerda que si sientes dolores causador por lesiones deportivas en el
-          hombro, dolores o lesiones en el codo estamos para ayudarte así como
-          para realizar cirugías ortopédicas y reconstructivas de la mano de ser
-          necesario.
+          Recuerda que si sientes dolores causados por lesiones deportivas en el
+          hombro, dolores o lesiones en el codo, estamos para ayudarte y para
+          realizar cirugías ortopédicas o reconstructivas de ser necesario.
         </p>
       </div>
     </div>

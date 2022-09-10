@@ -7,7 +7,7 @@
             Servicios Especializados
           </h2>
           <h3 class="font-bold mb-2 text-4xl text-gray-800">
-            Manejamos todo tipo de fracturas tanto del miembro superior como el
+            Se atiende todo tipo de fracturas tanto del miembro superior como el
             miembro inferior
           </h3>
         </div>

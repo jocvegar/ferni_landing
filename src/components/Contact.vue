@@ -13,8 +13,8 @@
     <section id="contact" class="bg-primary py-16 text-gray-300">
       <div class="container mx-auto px-4 relative">
         <div class="flex flex-wrap -mx-4 items-center">
-          <div class="px-4 w-full lg:order-last lg:w-5/12">
-            <div class="container px-5 py-24 mx-auto flex">
+          <div class="px-4 w-full order-last lg:w-5/12">
+            <div class="container py-24 mx-auto flex">
               <div
                 class="bg-white rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0 relative z-10 shadow-md"
               >
